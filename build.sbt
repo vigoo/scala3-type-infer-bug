@@ -6,4 +6,5 @@ ThisBuild / organizationName := "vigoo"
 lazy val root = (project in file("."))
   .settings(
     name := "scala3-type-infer-bug",
+    scalacOptions += "-Xprint:typer"
   )
